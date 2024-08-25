@@ -15,11 +15,11 @@ section{
     width: 70%;
     float: right;
 }
-.body{
+body{
     background-color: #DDCC55;
     color: #000000;
     font-size: 16px;
-    font-family: 'Stoke', 'Lucida Bright', 'liberation';
+    font-family: Stoke, Lucida Bright, liberation;
   }
 a:link {
     color: #222222;
@@ -62,25 +62,33 @@ ul{
 .ol {
     line-height: 200%;
 }
+/* Estilos CSS Página Planos */
+
+.titulo{
+    text-align: center;
+}
 .listaPlano{
     width: 300px;
     color: #202020;
     background-color: #EEEBBB;
     font-size: 12px;
     padding: 10px, 10px,10px,10px;
-    border: solid, 3px;
-    border-color: #202020;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    border: solid 3px #202020; 
+    margin: 0px auto 10px auto;
+    list-style-type: square;
 }
 .h4{
     font-size: 14px;
 }
+.listPlano_ol{
+    color: #202020;
+    list-style-type: lower-alpha;    
+}
 .preco{
     color: #CC0000;
 }
+
+/* Estilos CSS Página Equipamentos */
 .tabEquip{
     border: solid, 1px;
     border-collapse: separate;
@@ -95,4 +103,99 @@ ul{
 .tabSubTit{
     background-color: #802020;
     color: #FFFFFF;
+}
+.tabEquip_th{
+    border: solid 1px;
+    padding: 10px 10px 10px 10px;
+}
+.tabEquip_td{
+    border: solid 1px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #EEEEBB;
+}
+.tabEquip_imgCel{
+    width: 100px;
+    background-color: #FFFFFF;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilos CSS Página Inscrição */
+
+.formul{
+    width: 400;
+    padding-top: 20px;
+    margin: 0px auto 10px auto;
+    color: #202020;
+    background-color: #EEEEBB;
+    border: solid 3px #202020;
+    font-size: 12px;
+}
+
+.fsPessoal{
+    width: 340px;
+    margin: 0px auto 0px auto;
+}
+.fsGenero{
+    float: right;
+    margin: 10px 10px auto auto;
+}
+.fsCartao{
+    width: 280px;
+    margin: 0px auto 0px auto;
+}
+.fslinhaNome{
+    height: 30px;
+    width: 340px;
+    padding-top: 8px;
+}
+.fslinhaDados{
+    height: 130px;
+    width: 340px;
+}
+.fsColDirMat{
+    float: right;
+}
+.fsColEsqPes{
+    width: 70px;
+    float: left;
+    display: block;
+}
+.fsColLabCrd{
+    height: 30px;
+    width: 270px;
+    float: left;
+    display: block;
+}
+.fsColVatTot{
+    width: 220px;
+    float: left;
+    display: block;
+}.fsEntDireita{
+    margin-right: 20px;
+    float: right;
+}
+.inpNome{
+    width: 220px;
+}
+.numDD{
+    width: 35px;
+}
+.numQD{
+    width: 50px;
+}
+.inpNCC{
+    width: 130px;
+}
+.inpTelef{
+    width: 90px;;
+}
+.inpMat{
+    width: 70px;
+}
+.inpVal{
+    width: 50px;
 }

@@ -1,40 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-/*Link não visitado */
+header{
+    display: block;
+    margin-bottom: 1px;
+}
+nav{
+    display: block;
+    width: 20%;
+    float: left;
+}
+section{
+    display: block;
+    width: 70%;
+    float: right;
+}
+.body{
+    background-color: #DDCC55;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Stoke', 'Lucida Bright', 'liberation';
+  }
 a:link {
     color: #222222;
     text-decoration: none;
   }
-  
-  /*Link já visitado*/
-  a:visited {
+a:visited {
     color: #222222;
     text-decoration: none;
   }
-.body{
-    background-color: #DDCC55;
-    font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-.ul{
+ol{
+    line-height: 200%; 
+}
+ul{
+    line-height: 200%;
+}
+.nav_ul{
     color: #000000;
     line-height: 230%;
     margin-top: 40px;
     list-style-type: square;
 }
 .imgLogo{
-    border: 3px;
+    border-bottom: 3px solid;
     color: #222222;
-    border-bottom: 6px;
+    margin-bottom:6px;
     padding-bottom: 15px;
 }
+.apress{
+    text-align: center;
+    font-size: 16px;
+}
 .ender{
+    margin-bottom: 1px;
     float: right;
+    text-align: right;
     line-height: 140%;
     font-size: 14px;
-    font-family:'Karla', 'Verdana', 'Ubuntu' ;
+    font-family:Karla, Verdana, Ubuntu ;
 }
 .ol {
     line-height: 200%;

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Stoke:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*Link não visitado */
+a:link {
+    color: #222222;
+    text-decoration: none;
+  }
+  
+  /*Link já visitado*/
+  a:visited {
+    color: #222222;
+    text-decoration: none;
+  }
+.body{
+    background-color: #DDCC55;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+.ul{
+    color: #000000;
+    line-height: 230%;
+    margin-top: 40px;
+    list-style-type: square;
+}
+.imgLogo{
+    border: 3px;
+    color: #222222;
+    border-bottom: 6px;
+    padding-bottom: 15px;
+}
+.ender{
+    display: block;
+    float: right;
+    line-height: 140%;
+    font-size: 14px;
+
+}
